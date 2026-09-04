@@ -1,0 +1,35 @@
+Project brief: Flood risk map of Cape Coast, Ghana
+Part 1: The question
+Which settlements, roads, and critical infrastructure in the Cape Coast Metropolis lie in areas classified as high or very high flood susceptibility zones?
+
+Part 2: Why it matters
+The Cape Coast Metropolis experiences escalating flood events with limited research attention despite its vulnerability, particularly around the Kakum River estuary. The Cape Coast Metropolitan Assembly and NADMO would use this map to prioritize drainage investment, restrict development in hazardous zones, and plan evacuation routes to protect lives and livelihoods.
+
+Part 3: The data I need
+Administrative boundary for Cape Coast Metropolis
+
+Digital Elevation Model (DEM)
+
+Watercourse network (rivers, streams, drainage)
+
+Settlement extents and land cover
+
+Historical flood event locations
+
+Road network
+
+Part 4: Where each dataset comes from
+Administrative boundary – HDX Ghana – https://data.humdata.org/dataset/ghana-administrative-boundaries
+
+Digital Elevation Model – NASA Earthdata – https://search.earthdata.nasa.gov/
+
+Watercourses – WASCAL – https://dataportal.pauwes.dz/geonetwork/srv/api/records/eedcc530-8ace-46b8-ad2c-448242dd1b88
+
+Settlement extents – USGS Earth Explorer – https://earthexplorer.usgs.gov/
+
+Historical flood locations – NADMO Cape Coast – (no online link – contact directly)
+
+Road network – Geofabrik – https://www.geofabrik.de/data/shapefiles.html
+
+Part 5: What I would build
+A static flood risk map and web dashboard showing susceptibility zones overlaid with settlements, roads, and critical infrastructure. Local government officers and NADMO officials could open it to identify high-risk areas for planning interventions and emergency response.
